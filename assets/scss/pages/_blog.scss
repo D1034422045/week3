@@ -1,0 +1,159 @@
+.blog {
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+
+.blog h3 {
+  border-left: 8px solid #9f1213;
+  padding-left: 16px;
+}
+
+.blog-text-color {
+  color: #555555;
+}
+
+.blog-nav {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.blog-nav .material-symbols-outlined {
+  color: white;
+  font-size: 29px;
+  vertical-align: middle;
+}
+
+.blog-tag .material-symbols-outlined {
+  color: #aa0601;
+  font-size: 48px;
+}
+
+.blog-branch-color {
+  color: #000;
+}
+
+.blog-change {
+  color: #000;
+}
+
+.blog-hr {
+  border-color: #707070;
+  margin-top: 16px;
+}
+
+.blog-tag-text p {
+  color: #aa0601;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .fs-md-4 {
+    font-size: 16px;
+  }
+
+  .fs-md-6 {
+    font-size: 24px;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .mb-md-6 {
+    margin-bottom: 24px;
+  }
+
+  .blog-md-py {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .blog-item-content > div {
+    margin-bottom: 4px;
+  }
+
+  .blog-tag-text p {
+    font-size: 16px;
+  }
+
+  .blog-tag-title {
+    font-size: 16px;
+  }
+
+  .blog-tag .material-symbols-outlined {
+    font-size: 24px;
+    margin-right: 0;
+  }
+
+  .blog-text-color {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 6;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .blog-sm-py {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+
+  .blog-item-list {
+    flex-direction: column;
+  }
+
+  .blog-item-list > div {
+    width: 100%;
+  }
+
+  .mb-sm-4 {
+    margin-bottom: 16px;
+  }
+
+  .me-sm-6 {
+    margin-right: 24px;
+  }
+
+  .mb-sm-6 {
+    margin-bottom: 24px;
+  }
+
+  .mb-sm-16 {
+    margin-bottom: 64px;
+  }
+
+  .fs-sm-4 {
+    font-size: 16px;
+  }
+
+  .fs-sm-6 {
+    font-size: 24px;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .blog-text-cancel {
+    overflow: visible;
+    text-overflow: clip;
+    display: blcok;
+    -webkit-box-orient: inline-axis;
+  }
+}

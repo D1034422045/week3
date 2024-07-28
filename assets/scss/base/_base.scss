@@ -1,0 +1,27 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  // outline: 1px solid red;
+}
+
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  padding: 6px;
+}

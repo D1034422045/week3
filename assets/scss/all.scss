@@ -1,0 +1,20 @@
+// base
+@import "./base/reset";
+@import "./base/base";
+
+// utils
+@import "./utilities/utils";
+
+// components
+@import "./components/components";
+
+// layout
+@import "./layout/header";
+@import "./layout/footer.scss";
+
+// pages
+@import "./pages/index.scss";
+@import "./pages/series.scss";
+@import "./pages/location.scss";
+@import "./pages/qa.scss";
+@import "./pages/blog.scss";
